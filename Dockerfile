@@ -1,7 +1,7 @@
 From alpine/git
 RUN rm -rf /usr/local/tomcat/webapps/*
 WORKDIR /app
-RUN git clone https://github.com/efsavage/hello-world-war.git (1)
+RUN git clone https://github.com/Rock46/dockmvn.git (1)
 
 FROM maven:3.5-jdk-8-alpine
 WORKDIR /app
